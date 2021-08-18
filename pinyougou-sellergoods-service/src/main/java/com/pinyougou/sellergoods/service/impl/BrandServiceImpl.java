@@ -36,6 +36,7 @@ public class BrandServiceImpl implements BrandService {
 	@Override
 	public PageInfo<Brand> getAll(Brand brand,int pageNum, int pageSize) {
 		PageHelper.startPage(pageNum, pageSize);
+		System.out.println("测试");
 		System.out.println(pageNum+":"+pageSize);
 		List<Brand> all = brandMapper.select(brand);
         PageInfo<Brand> pageInfo = new PageInfo<Brand>(all);
