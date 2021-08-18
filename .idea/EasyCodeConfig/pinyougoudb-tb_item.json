@@ -1,0 +1,195 @@
+{
+  "name" : "TbItem",
+  "originTableName" : "tb_item",
+  "comment" : "商品表",
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Long",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "title",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "sellPoint",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "price",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Double",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "stockCount",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Int",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "num",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Int",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "barcode",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "image",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "categoryid",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Long",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "status",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "createTime",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Date",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "updateTime",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Date",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "itemSn",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "costPirce",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Double",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "marketPrice",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Double",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "isDefault",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "goodsId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Long",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "sellerId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "cartThumbnail",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "category",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "brand",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "spec",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "seller",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "Test",
+  "savePath" : "./pinyougou-model/src/main/java/Test",
+  "saveModelName" : "pinyougou-model"
+}

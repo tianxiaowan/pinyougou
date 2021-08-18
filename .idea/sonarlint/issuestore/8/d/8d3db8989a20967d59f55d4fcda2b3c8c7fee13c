@@ -1,0 +1,33 @@
+
+`	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+Z	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+a
+java:S1192‚"JDefine a constant instead of duplicating this literal "receiver" 12 times.(„§ÀÐ
+k
+java:S1192È"ODefine a constant instead of duplicating this literal "transactionId" 12 times.(×ö¸Ìøÿÿÿÿ
+_
+java:S1192¬"HDefine a constant instead of duplicating this literal "userId" 12 times.(Ý§‰ 
+h
+java:S1192¸"LDefine a constant instead of duplicating this literal "createTime" 10 times.(·í“°øÿÿÿÿ
+g
+java:S1192´"KDefine a constant instead of duplicating this literal "seckillId" 10 times.(à÷ë¦üÿÿÿÿ
+`
+java:S1192ô"IDefine a constant instead of duplicating this literal "payTime" 10 times.(Ú¬ï
+m
+java:S1192ö"QDefine a constant instead of duplicating this literal "receiverAddress" 12 times.(Ûçà©ûÿÿÿÿ
+c
+java:S1192ð"GDefine a constant instead of duplicating this literal "money" 10 times.(ƒå«…ÿÿÿÿÿ
+d
+java:S1192°"HDefine a constant instead of duplicating this literal "status" 12 times.(Æ‹óÁùÿÿÿÿ
+l
+java:S1192¼"PDefine a constant instead of duplicating this literal "receiverMobile" 12 times.(å¬ÛÎûÿÿÿÿ
+a
+java:S1192ò"JDefine a constant instead of duplicating this literal "sellerId" 12 times.(Ÿ²ôõ
+S
+java:S11553">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155M">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+v
+java:S1488:"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì

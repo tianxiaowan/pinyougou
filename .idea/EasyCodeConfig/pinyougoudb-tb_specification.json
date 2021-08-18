@@ -1,0 +1,27 @@
+{
+  "name" : "TbSpecification",
+  "originTableName" : "tb_specification",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Long",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "specName",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "Test",
+  "savePath" : "./pinyougou-model/src/main/java/Test",
+  "saveModelName" : "pinyougou-model"
+}

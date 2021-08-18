@@ -1,0 +1,14 @@
+
+a	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8Ñ¯›´/
+JWeb:BoldAndItalicTagsCheck8"Replace this <i> tag by <em>.(³ìû“8Ñ¯›´/
+OWeb:BoldAndItalicTagsCheck9"Replace this <i> tag by <em>.(û÷È°ÿÿÿÿÿ8Ñ¯›´/
+OWeb:BoldAndItalicTagsCheck:"Replace this <i> tag by <em>.(³ºûşÿÿÿÿ8Ñ¯›´/
+TWeb:TableWithoutCaptionCheckH" Add a description to this table.(¹ÔùÙûÿÿÿÿ8Ñ¯›´/
+n Web:TableHeaderHasIdOrScopeCheckK";Add either an 'id' or a 'scope' attribute to this <th> tag.(¯Š×Ã8Ñ¯›´/
+n Web:TableHeaderHasIdOrScopeCheckN";Add either an 'id' or a 'scope' attribute to this <th> tag.(½Üñ8Ñ¯›´/
+n Web:TableHeaderHasIdOrScopeCheckO";Add either an 'id' or a 'scope' attribute to this <th> tag.(¸ç×á8Ñ¯›´/
+s Web:TableHeaderHasIdOrScopeCheckP";Add either an 'id' or a 'scope' attribute to this <th> tag.(‰Øß¢ûÿÿÿÿ8Ñ¯›´/
+n Web:TableHeaderHasIdOrScopeCheckQ";Add either an 'id' or a 'scope' attribute to this <th> tag.(†ÛÉµ8Ñ¯›´/
+OWeb:TableWithoutCaptionCheck|" Add a description to this table.(È§÷¾8‘Ñ¯›´/
+A	Web:S5256|"%Add "<th>" headers to this "<table>".(È§÷¾8‘Ñ¯›´/
+E	Web:S1827|")Remove this deprecated "width" attribute.(È§÷¾8‘Ñ¯›´/

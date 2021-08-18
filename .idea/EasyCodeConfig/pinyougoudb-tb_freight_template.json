@@ -1,0 +1,67 @@
+{
+  "name" : "TbFreightTemplate",
+  "originTableName" : "tb_freight_template",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Long",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "sellerId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "isDefault",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "name",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "sendTimeType",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "price",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Double",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "createTime",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Date",
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "Test",
+  "savePath" : "./pinyougou-model/src/main/java/Test",
+  "saveModelName" : "pinyougou-model"
+}

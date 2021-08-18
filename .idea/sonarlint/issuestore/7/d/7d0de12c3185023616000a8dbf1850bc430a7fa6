@@ -1,0 +1,33 @@
+
+`	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+Z	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+^
+java:S1192…"HDefine a constant instead of duplicating this literal "townId" 12 times.(»‡ÏO
+d
+java:S1192¿"HDefine a constant instead of duplicating this literal "cityId" 12 times.(Æšà©þÿÿÿÿ
+b
+java:S1192"KDefine a constant instead of duplicating this literal "isDefault" 12 times.(·–¯Š
+h
+java:S1192©"LDefine a constant instead of duplicating this literal "createDate" 10 times.(ÄÆûáþÿÿÿÿ
+e
+java:S1192‘"IDefine a constant instead of duplicating this literal "address" 12 times.(°³«Ïøÿÿÿÿ
+_
+java:S1192³"HDefine a constant instead of duplicating this literal "userId" 12 times.(Ý§‰ 
+^
+java:S1192ã"GDefine a constant instead of duplicating this literal "notes" 12 times.(¼¨³Ý
+e
+java:S1192×"IDefine a constant instead of duplicating this literal "contact" 12 times.(¸òÃçùÿÿÿÿ
+c
+java:S1192ù"LDefine a constant instead of duplicating this literal "provinceId" 12 times.(°ÔÇù
+^
+java:S1192å"GDefine a constant instead of duplicating this literal "alias" 12 times.(Ëª…­
+d
+java:S1192Ë"HDefine a constant instead of duplicating this literal "mobile" 12 times.(¨¸¬Æüÿÿÿÿ
+S
+java:S11552">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155L">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+v
+java:S14889"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì

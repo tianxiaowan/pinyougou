@@ -1,0 +1,17 @@
+
+`	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`	java:S112_"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+Z	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+`
+java:S1192ø"IDefine a constant instead of duplicating this literal "specIds" 12 times.(º¢µª
+r
+java:S1192„"VDefine a constant instead of duplicating this literal "customAttributeItems" 12 times.(ÒýýÖýÿÿÿÿ
+a
+java:S1192¾"JDefine a constant instead of duplicating this literal "brandIds" 12 times.(ÌÀùÁ
+S
+java:S11551">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155K">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+v
+java:S14888"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì

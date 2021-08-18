@@ -1,0 +1,63 @@
+
+`	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+Z	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+g
+java:S1192Â"KDefine a constant instead of duplicating this literal "buyerNick" 12 times.(«ê™äùÿÿÿÿ
+a
+java:S1192 "JDefine a constant instead of duplicating this literal "receiver" 12 times.(„§ÀÐ
+h
+java:S1192è"LDefine a constant instead of duplicating this literal "sourceType" 12 times.(¦†Úµûÿÿÿÿ
+_
+java:S1192æ"HDefine a constant instead of duplicating this literal "expire" 10 times.(”¦ÁÈ
+d
+java:S1192ð"MDefine a constant instead of duplicating this literal "paymentType" 12 times.(Ìœáœ
+`
+java:S1192¶"IDefine a constant instead of duplicating this literal "postFee" 12 times.(•×˜
+_
+java:S1192¶"HDefine a constant instead of duplicating this literal "userId" 12 times.(Ý§‰ 
+e
+java:S1192ü"NDefine a constant instead of duplicating this literal "buyerMessage" 12 times.(Î…š¥
+h
+java:S1192Â"LDefine a constant instead of duplicating this literal "createTime" 10 times.(·í“°øÿÿÿÿ
+e
+java:S1192²"IDefine a constant instead of duplicating this literal "endTime" 10 times.(¸Œüüþÿÿÿÿ
+j
+java:S1192ð"NDefine a constant instead of duplicating this literal "shippingCode" 12 times.(ö®¿ùÿÿÿÿ
+b
+java:S1192ˆ	"KDefine a constant instead of duplicating this literal "buyerRate" 12 times.(çç’Ä
+d
+java:S1192¢"MDefine a constant instead of duplicating this literal "invoiceType" 12 times.(ïèå¹
+m
+java:S1192Ú
+"QDefine a constant instead of duplicating this literal "receiverZipCode" 12 times.(Ð¡üÿÿÿÿ
+_
+java:S1192x"IDefine a constant instead of duplicating this literal "orderId" 10 times.(ÄæíÃ
+e
+java:S1192´"IDefine a constant instead of duplicating this literal "payment" 10 times.(–ÆºÄûÿÿÿÿ
+d
+java:S1192ü"HDefine a constant instead of duplicating this literal "status" 12 times.(Æ‹óÁùÿÿÿÿ
+e
+java:S1192ª"NDefine a constant instead of duplicating this literal "shippingName" 12 times.(Ä¿ÿ¿
+l
+java:S1192”
+"PDefine a constant instead of duplicating this literal "receiverMobile" 12 times.(å¬ÛÎûÿÿÿÿ
+h
+java:S1192þ"LDefine a constant instead of duplicating this literal "updateTime" 10 times.(¾£ü¨øÿÿÿÿ
+a
+java:S1192®"JDefine a constant instead of duplicating this literal "sellerId" 12 times.(Ÿ²ôõ
+i
+java:S1192ö"MDefine a constant instead of duplicating this literal "consignTime" 10 times.(¢ÞÄÜÿÿÿÿÿ
+g
+java:S1192î"KDefine a constant instead of duplicating this literal "closeTime" 10 times.(ì‚‹½üÿÿÿÿ
+c
+java:S1192º"MDefine a constant instead of duplicating this literal "paymentTime" 10 times.(ŠÙÝ
+i
+java:S1192Î	"RDefine a constant instead of duplicating this literal "receiverAreaName" 12 times.(ÃÐˆå
+S
+java:S11553">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155M">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+v
+java:S1488:"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì

@@ -1,0 +1,41 @@
+
+`	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+Z	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+g
+java:S1192ù"KDefine a constant instead of duplicating this literal "goodsName" 12 times.(è‚‡Ÿûÿÿÿÿ
+e
+java:S1192Á"NDefine a constant instead of duplicating this literal "isMarketable" 12 times.(”›Ì¤
+d
+java:S1192Å"MDefine a constant instead of duplicating this literal "category2Id" 10 times.(ÀÐáÅ
+d
+java:S1192‰"MDefine a constant instead of duplicating this literal "category1Id" 10 times.(Žè‡ª
+a
+java:S1192½"JDefine a constant instead of duplicating this literal "smallPic" 12 times.(î”²ì
+g
+java:S1192¿"PDefine a constant instead of duplicating this literal "typeTemplateId" 10 times.(·Þ­ï
+j
+java:S1192û"NDefine a constant instead of duplicating this literal "isEnableSpec" 12 times.(ü››¤ÿÿÿÿÿ
+`
+java:S1192Ã"IDefine a constant instead of duplicating this literal "caption" 12 times.(›Ó‰Ú
+c
+java:S1192ƒ"GDefine a constant instead of duplicating this literal "price" 10 times.(º ‘Öøÿÿÿÿ
+e
+java:S1192‡"IDefine a constant instead of duplicating this literal "brandId" 10 times.(µÏÀŠúÿÿÿÿ
+i
+java:S1192"MDefine a constant instead of duplicating this literal "category3Id" 10 times.(áˆ¤Ìùÿÿÿÿ
+i
+java:S1192û"MDefine a constant instead of duplicating this literal "auditStatus" 12 times.(˜¹ä‡ýÿÿÿÿ
+a
+java:S1192³"JDefine a constant instead of duplicating this literal "sellerId" 12 times.(Ÿ²ôõ
+k
+java:S1192¿"ODefine a constant instead of duplicating this literal "defaultItemId" 10 times.(¬Ä³åþÿÿÿÿ
+f
+java:S1192Á"JDefine a constant instead of duplicating this literal "isDelete" 12 times.(Õ©ýéÿÿÿÿÿ
+S
+java:S11552">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155L">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+v
+java:S14889"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì

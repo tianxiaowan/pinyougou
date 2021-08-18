@@ -1,0 +1,29 @@
+
+`	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+Z	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+k
+java:S1192·"ODefine a constant instead of duplicating this literal "transactionId" 12 times.(×ö¸Ìøÿÿÿÿ
+_
+java:S1192ñ"HDefine a constant instead of duplicating this literal "userId" 12 times.(Ý§‰ 
+h
+java:S1192½"LDefine a constant instead of duplicating this literal "createTime" 10 times.(·í“°øÿÿÿÿ
+`
+java:S1192ù"IDefine a constant instead of duplicating this literal "payTime" 10 times.(Ú¬ï
+h
+java:S1192ý"LDefine a constant instead of duplicating this literal "tradeState" 12 times.(Èµ„¤üÿÿÿÿ
+a
+java:S1192µ"JDefine a constant instead of duplicating this literal "totalFee" 10 times.(Òõïí
+`
+java:S1192‰"IDefine a constant instead of duplicating this literal "payType" 12 times.(£º»
+g
+java:S1192Ã"KDefine a constant instead of duplicating this literal "orderList" 12 times.(ó®ýžÿÿÿÿÿ
+b
+java:S1192w"LDefine a constant instead of duplicating this literal "outTradeNo" 12 times.(ÆÚ„ª
+S
+java:S11552">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155L">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+v
+java:S14889"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì

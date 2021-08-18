@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-manager-web" />
+        <module name="pinyougou-common" />
+        <module name="dubbo-provider" />
+        <module name="pinyougou-mapper" />
+        <module name="pinyougou-model" />
+        <module name="pinyougou-sellergoods-interface" />
+        <module name="pinyougou-sellergoods-service" />
+        <module name="dubbo-interface" />
+        <module name="dubbo-consumer" />
+        <module name="pinyougou-reverser" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="dubbo-consumer" target="1.5" />
+      <module name="dubbo-interface" target="1.5" />
+      <module name="dubbo-provider" target="1.5" />
+      <module name="pinyougou-common" target="1.5" />
+      <module name="pinyougou-manager-web" target="1.5" />
+      <module name="pinyougou-mapper" target="1.5" />
+      <module name="pinyougou-model" target="1.5" />
+      <module name="pinyougou-parent" target="1.5" />
+      <module name="pinyougou-reverser" target="1.8" />
+      <module name="pinyougou-sellergoods-interface" target="1.5" />
+      <module name="pinyougou-sellergoods-service" target="6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
