@@ -50,6 +50,10 @@ public class Brand implements Serializable {
         return name;
     }
 
+    public String getText() {
+        return name;
+    }
+
     /**
      * 设置品牌名称
      *

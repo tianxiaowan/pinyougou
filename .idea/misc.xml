@@ -26,7 +26,9 @@
   <component name="ProjectResources">
     <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="D:/dev/install/spring-framework-4.2.4.RELEASE/schema/mybatis/mybatis-3-mapper.dtd" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
   <component name="SuppressionsComponent">
     <option name="suppComments" value="[]" />
   </component>

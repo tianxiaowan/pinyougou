@@ -26,7 +26,7 @@
             <entry key="com.zeroturnaround.jrebel.remoting.DeleteUnindexedFiles" value="false" />
             <entry key="com.zeroturnaround.jrebel.remoting.ModuleRemoteServerSelection" value="off" />
             <entry key="jrebelEnabled" value="true" />
-            <entry key="lastExternalPluginCheckTime" value="1628929953190" />
+            <entry key="lastExternalPluginCheckTime" value="1640181969053" />
           </map>
         </option>
       </configuration>
@@ -76,5 +76,9 @@
     <orderEntry type="library" name="Maven: org.apache.curator:curator-framework:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.curator:curator-client:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:4.2.4.RELEASE" level="project" />
   </component>
 </module>

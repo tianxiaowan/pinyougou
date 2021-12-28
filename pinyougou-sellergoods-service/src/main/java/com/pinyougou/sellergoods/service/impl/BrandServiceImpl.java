@@ -1,5 +1,7 @@
 package com.pinyougou.sellergoods.service.impl;
 import java.util.List;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.PageInfo;
@@ -38,8 +40,23 @@ public class BrandServiceImpl implements BrandService {
 		PageHelper.startPage(pageNum, pageSize);
 		System.out.println("测试");
 		System.out.println(pageNum+":"+pageSize);
-		List<Brand> all = brandMapper.select(brand);
-        PageInfo<Brand> pageInfo = new PageInfo<Brand>(all);
+//		List<Brand> all = brandMapper.select(brand);
+
+		Example example = new Example(Brand.class);
+		Example.Criteria criteria = example.createCriteria();
+		if(brand != null){
+			if(StringUtils.isNotBlank(brand.getName())){
+				criteria.andLike("name","%"+brand.getName()+"%");
+			}
+
+			if (StringUtils.isNotBlank(brand.getFirstChar())){
+				criteria.andEqualTo("firstChar",brand.getFirstChar());
+			}
+		}
+
+		List<Brand> brands = brandMapper.selectByExample(example);
+
+		PageInfo<Brand> pageInfo = new PageInfo<Brand>(brands);
         return pageInfo;
 	}
 

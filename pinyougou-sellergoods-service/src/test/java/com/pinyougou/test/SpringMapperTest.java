@@ -94,9 +94,9 @@ public class SpringMapperTest {
 
         //组装条件
         List<Long> ids = new ArrayList<Long>();
-        ids.add(92L);
-        ids.add(68L);
-        ids.add(67L);
+        ids.add(43L);
+        ids.add(44L);
+//        ids.add(67L);
         criteria.andIn("id",ids);
         brandMapper.deleteByExample(example);
     }

@@ -4,6 +4,7 @@ app.controller('brandController',function ($scope,$http,$controller,brandService
     //controller的继承
     $controller('baseController',{$scope:$scope})
 
+
     //查询所有品牌列表
     $scope.getPage=function (page,size) {
         //请求地址

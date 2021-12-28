@@ -117,9 +117,9 @@ public class BrandController {
     public PageInfo<Brand> list(@RequestBody Brand brand, @RequestParam(value = "page", required = false, defaultValue = "1") int page,
                                 @RequestParam(value = "size", required = false, defaultValue = "10") int size) {
         System.out.println(brand);
-        System.out.println(page);
-        System.out.println(size);
-        System.out.println(brandService);
+//        System.out.println(page);
+//        System.out.println(size);
+//        System.out.println(brandService);
         return brandService.getAll(brand, page, size);
     }
 

@@ -75,7 +75,7 @@ public class TypeTemplateController {
 	 * @param id
 	 * @return
 	 */
-	@RequestMapping(value = "/{id}",method = RequestMethod.GET)
+	@RequestMapping(value = "/getById/{id}",method = RequestMethod.GET)
 	public TypeTemplate getById(@PathVariable(value = "id")long id){
 		return typeTemplateService.getOneById(id);		
 	}
@@ -85,9 +85,10 @@ public class TypeTemplateController {
 	 * @param ids
 	 * @return
 	 */
-	@RequestMapping(value = "/delete")
+	@RequestMapping(value = "/delete",method = RequestMethod.POST)
 	public Result delete(@RequestBody List<Long> ids){
 		try {
+			System.out.println(ids);
 			int dcount = typeTemplateService.deleteByIds(ids);
 			if(dcount>0){
 				return new Result(true,"删除成功");
@@ -108,6 +109,7 @@ public class TypeTemplateController {
 	@RequestMapping(value = "/list",method = RequestMethod.POST)
 	public PageInfo<TypeTemplate> list(@RequestBody TypeTemplate typeTemplate, @RequestParam(value = "page", required = false, defaultValue = "1") int page,
 																   @RequestParam(value = "size", required = false, defaultValue = "10") int size ){
+
 		return typeTemplateService.getAll(typeTemplate, page, size);		
 	}
 	

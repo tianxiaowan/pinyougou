@@ -21,7 +21,17 @@ public class SpecificationController {
 
 	@Reference
 	private SpecificationService specificationService;
-	
+
+
+	/**
+	 * 返回全部列表
+	 * @return
+	 */
+	@RequestMapping(value = "/selectOptionList",method = RequestMethod.GET)
+	public List<Map<String, Object>> selectOptionList(){
+		return specificationService.selectOptionList();
+	}
+
 	/**
 	 * 返回全部列表
 	 * @return
@@ -41,7 +51,9 @@ public class SpecificationController {
 	@RequestMapping(value = "/add",method = RequestMethod.POST)
 	public Result add(@RequestBody Specification specification){
 		try {
+			System.out.println(specification.getSpecificationOptionList()!=null);
 			int acount =  specificationService.add(specification);
+			System.out.println(acount);
 			if(acount>0){
                 //增加成功
                return new Result(true,"增加成功");
@@ -68,8 +80,8 @@ public class SpecificationController {
 			e.printStackTrace();		
 		}
 		return new Result(false, "修改失败");
-	}	
-	
+	}
+
 	/**
 	 * 获取实体
 	 * @param id
@@ -77,6 +89,7 @@ public class SpecificationController {
 	 */
 	@RequestMapping(value = "/{id}",method = RequestMethod.GET)
 	public Specification getById(@PathVariable(value = "id")long id){
+		System.out.println("id:"+id);
 		return specificationService.getOneById(id);		
 	}
 	
@@ -85,7 +98,7 @@ public class SpecificationController {
 	 * @param ids
 	 * @return
 	 */
-	@RequestMapping(value = "/delete")
+	@RequestMapping(value = "/delete",method = RequestMethod.POST)
 	public Result delete(@RequestBody List<Long> ids){
 		try {
 			int dcount = specificationService.deleteByIds(ids);

@@ -1,6 +1,8 @@
 package com.pinyougou.sellergoods.service;
 import com.github.pagehelper.PageInfo;
 import java.util.List;
+import java.util.Map;
+
 import com.pinyougou.model.Specification;
 
 /**
@@ -52,5 +54,6 @@ public interface SpecificationService {
 	 */
 	int deleteByIds(List<Long> ids);
 
-	
+
+    List<Map<String, Object>> selectOptionList();
 }

@@ -1,4 +1,8 @@
 app.service('brandService',function ($http) {
+    this.getAll = function () {
+        return $http.get('/brand/list.shtml');
+    }
+
     //查询所有 this相当于$scope
     this.findAll = function (page,size,searchEntity) {
         return $http.post('/brand/list.shtml?page='+page+'&size='+size,searchEntity);

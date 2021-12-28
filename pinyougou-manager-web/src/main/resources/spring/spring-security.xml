@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:bean="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+	<!-- 不需要权限访问的配置 /**表示所有子目录-->
+	<http pattern ="/login.html" security="none"></http>
+	<http pattern ="/login_error.html" security="none"></http>
+	<http pattern ="/css/**" security="none"></http>
+	<http pattern ="/img/**" security="none"></http>
+	<http pattern ="/js/**" security="none"></http>
+	<http pattern ="/plugins/**" security="none"></http>
+
+	<http>
+		<!-- 拦截规则设置 -->
+		<!-- 根目录下所有资源都需要权限访问(包含接口) 拥有ROLE_ADMIN角色才可以访问-->
+		<intercept-url pattern="/**"  access="hasRole('ROLE_ADMIN')"/>
+		<!-- 表单登录 spring中很多都是默认的，没配置使用的默认的，比如登录成功默认进入/index.html页面 -->
+		<!-- login-page配置登录页面，所有资源配置必须/开头；authentication-failure-url认证错误跳转页面;
+		     default-target-url登录成功后默认跳转页面 -->
+		<!-- always-use-default-target默认为false,登录后跳到登录前页面，比如购物车等前台页面使用，如果设置为true,则登录后总是跳到
+		     default-target-url指定的页面，比如后台管理网站经常登录后跳转到index.html,就需要设置 -->
+		<form-login
+				login-page="/login.html"
+				login-processing-url="/login"
+				username-parameter="username"
+				password-parameter="password"
+				authentication-failure-url="/login_error.html"
+				always-use-default-target="true"
+				default-target-url="/admin/index.html"/>
+		<!-- spring security从4开始默认打开跨域攻击防御，此时要求所有资源和表单请求必须带token,且页面必须是jsp，这里关闭  -->
+		<csrf disabled ="true"></csrf>
+		<!--允许加载iframe框架-->
+		<headers>
+			<frame-options policy="SAMEORIGIN"></frame-options>
+
+		</headers>
+	</http>
+
+	<!-- 认证管理器 -->
+	<authentication-manager>
+		<authentication-provider>
+			<user-service>
+				<!-- test用户有ROLE_USER角色 -->
+				<user name="admin" password="123123" authorities="ROLE_ADMIN"/><!-- 可配多个 -->
+			</user-service>
+		</authentication-provider>
+	</authentication-manager>
+	
+</bean:beans>

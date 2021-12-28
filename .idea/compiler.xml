@@ -21,6 +21,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="aaa" target="8" />
       <module name="dubbo-consumer" target="1.5" />
       <module name="dubbo-interface" target="1.5" />
       <module name="dubbo-provider" target="1.5" />
@@ -32,6 +33,10 @@
       <module name="pinyougou-reverser" target="1.8" />
       <module name="pinyougou-sellergoods-interface" target="1.5" />
       <module name="pinyougou-sellergoods-service" target="6" />
+      <module name="spring-security-demo" target="8" />
+      <module name="spring-security-deom" target="8" />
+      <module name="untitled" target="8" />
+      <module name="untitledbbb" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

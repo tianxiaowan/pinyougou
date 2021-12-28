@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-interface/dubbo-interface.iml" filepath="$PROJECT_DIR$/dubbo-interface/dubbo-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaTest/javaTest.iml" filepath="$PROJECT_DIR$/javaTest/javaTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pinyougou.iml" filepath="$PROJECT_DIR$/.idea/pinyougou.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougou-common/pinyougou-common.iml" filepath="$PROJECT_DIR$/pinyougou-common/pinyougou-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougou-manager-web/pinyougou-manager-web.iml" filepath="$PROJECT_DIR$/pinyougou-manager-web/pinyougou-manager-web.iml" />

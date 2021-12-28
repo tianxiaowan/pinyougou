@@ -1,0 +1,16 @@
+
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÏÊÃ×ûÿÿÿÿ
+`
+java:S4488)"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ú¿Ìã
+_
+java:S4488<"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ï˜¦
+^
+java:S4488N"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ðÄâÿ
+`
+java:S4488l"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ø›ˆˆ
+I
+java:S1128
+".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ

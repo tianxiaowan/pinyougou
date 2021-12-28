@@ -1,5 +1,7 @@
 package com.pinyougou.sellergoods.service.impl;
 import java.util.List;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.PageInfo;
@@ -37,8 +39,18 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 	public PageInfo<TypeTemplate> getAll(TypeTemplate typeTemplate,int pageNum, int pageSize) {
 		PageHelper.startPage(pageNum, pageSize);
 
-		List<TypeTemplate> all = typeTemplateMapper.select(typeTemplate);
-        PageInfo<TypeTemplate> pageInfo = new PageInfo<TypeTemplate>(all);
+//		List<TypeTemplate> all = typeTemplateMapper.select(typeTemplate);
+		Example example = new Example(TypeTemplate.class);
+		Example.Criteria criteria = example.createCriteria();
+
+		if (typeTemplate!=null && StringUtils.isNotBlank(typeTemplate.getName())){
+			System.out.println(1);
+			criteria.andLike("name","%"+typeTemplate.getName()+"%");
+		}
+
+		List<TypeTemplate> typeTemplates = typeTemplateMapper.selectByExample(example);
+
+		PageInfo<TypeTemplate> pageInfo = new PageInfo<TypeTemplate>(typeTemplates);
         return pageInfo;
 	}
 
